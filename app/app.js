@@ -49,10 +49,10 @@ const SHOTS = {
     selected: 'Positive Mental Attitude',
   },
   roadmap: { earned: ['Just Like Paradise', 'Paradise Lost', 'T**s Ass Drug Money', 'Trust', 'Break the Bank', 'This Was No Boat Accident', 'Master of None', 'Baited My Tackle', 'Stick Fiddler', 'Whip It Good', 'Hot Together', 'Gunslinger', 'Little Boxes'], view: 'roadmap' },
-  missables: { earned: [], view: 'missables' },
+  missables: { earned: ['Just Like Paradise', 'Paradise Lost', 'T**s Ass Drug Money', 'Trust', 'Break the Bank', 'This Was No Boat Accident', 'Master of None', 'Baited My Tackle', 'Stick Fiddler', 'Whip It Good', 'Hot Together', 'Gunslinger', 'Little Boxes'], view: 'missables' },
   spoilers: {
     earned: ['Just Like Paradise', 'Master of None', 'Stick Fiddler', 'Whip It Good', 'Little Boxes'],
-    spoilers: true, grade: 'bronze', selected: 'Snow Storm',
+    spoilers: true, grade: 'bronze', selected: 'Master of None',
   },
 };
 if (shotParam && SHOTS[shotParam]) {
